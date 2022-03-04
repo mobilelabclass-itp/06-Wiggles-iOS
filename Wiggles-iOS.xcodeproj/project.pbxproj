@@ -25,6 +25,7 @@
 		73CECA3025EE3A76008362CE /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CECA2F25EE3A76008362CE /* DogData.swift */; };
 		73CECA3525EE416C008362CE /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CECA3425EE416C008362CE /* DetailsView.swift */; };
 		73E4B4D925EE75B10020C282 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E4B4D825EE75B10020C282 /* DetailsViewModel.swift */; };
+		AB233E9927D29DA4002CA058 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AB233E9827D29DA3002CA058 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		73CECA2F25EE3A76008362CE /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
 		73CECA3425EE416C008362CE /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		73E4B4D825EE75B10020C282 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		AB233E9827D29DA3002CA058 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		73CEC9D725EE0A8F008362CE = {
 			isa = PBXGroup;
 			children = (
+				AB233E9827D29DA3002CA058 /* README.md */,
 				73CEC9E225EE0A8F008362CE /* Wiggles-iOS */,
 				73CEC9E125EE0A8F008362CE /* Products */,
 			);
@@ -80,18 +83,18 @@
 		73CEC9E225EE0A8F008362CE /* Wiggles-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				73CEC9E325EE0A8F008362CE /* Wiggles_iOSApp.swift */,
+				73CEC9E525EE0A8F008362CE /* ContentView.swift */,
+				73CECA1A25EE1FD0008362CE /* Home */,
 				73CECA3325EE4158008362CE /* Details */,
 				73CECA2E25EE3A5D008362CE /* Data */,
 				73CECA2725EE3154008362CE /* Model */,
-				73CECA1A25EE1FD0008362CE /* Home */,
-				73CECA0025EE15D8008362CE /* sailec */,
 				73CEC9F325EE0AD2008362CE /* Helpers */,
-				73CEC9E325EE0A8F008362CE /* Wiggles_iOSApp.swift */,
-				73CEC9E525EE0A8F008362CE /* ContentView.swift */,
+				73CEC9FA25EE1416008362CE /* Configs.swift */,
+				73CECA0025EE15D8008362CE /* sailec */,
 				73CEC9E725EE0A92008362CE /* Assets.xcassets */,
 				73CEC9EC25EE0A92008362CE /* Info.plist */,
 				73CEC9E925EE0A92008362CE /* Preview Content */,
-				73CEC9FA25EE1416008362CE /* Configs.swift */,
 			);
 			path = "Wiggles-iOS";
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB233E9927D29DA4002CA058 /* README.md in Resources */,
 				73CECA1725EE1F2C008362CE /* Sailec-Medium.ttf in Resources */,
 				73CECA1525EE1F2A008362CE /* Sailec-Bold.ttf in Resources */,
 				73CEC9EB25EE0A92008362CE /* Preview Assets.xcassets in Resources */,
